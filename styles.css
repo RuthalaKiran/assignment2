@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    height: 480px;
+    background-image: linear-gradient(to bottom,rgba(257,14,14,0),#4f0307),url("images/backimg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.login, .createacc{
+    color: white;
+    text-decoration: none;
+    opacity: 100%;
+}
+.login:hover,.createacc:hover{
+    color: white;
+}
+.createacc{
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.logo{
+    color: #EB2929;
+    background-color: white;
+    display: inline;
+    border-radius: 50%;
+    font-size: 70px;
+    font-weight: 600;
+}
+.restaurent-heading{
+    color: white;
+    font-size: 30px;
+}
+
+.searchicon i{
+    font-size: 30px;
+    color: yellow;
+}
+/* .restaurentinput{
+    width: 400px;
+} */
+.locationdropdown{
+   height: 50px;
+}
+.restaurentinput{
+    height: 50px;
+}
+.quick .h3{
+    color: #192F60;
+    font-weight: 1000 !important;
+}
+.quick .discover{
+    color: #8C96AB;
+}
+/* .quicksearch{
+    background-color: red;
+} */
+.items{
+    margin: 30px 0px;
+    margin-right: 32px;
+    width: 400px !important;
+    height: 118px !important;
+    box-shadow: 0px 3px 6px #00000029;
+}
+.items img{
+    margin-left: -12px;
+    height: 118px;
+}
+.food-title{
+    color: #192F60;
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    text-decoration: none;
+}
+.food-matter{
+    color: #8C96AB;
+}
